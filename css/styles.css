@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #00a9c9;
+}
+
+#app {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+#textInput {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #00a9c9;
+}
+input:focus-visible {
+  border: 1px solid #00a9c9;
+}
+::placeholder {
+  color: #00a9c9;
+}
+
+#addBtn {
+  margin-left: 10px;
+  padding: 8px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 15px;
+  min-width: 80px;
+  background-color: #00a9c9;
+  color: #ecfcff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.deleteBtn {
+  margin-left: 10px;
+  color: #fd6b95;
+  cursor: pointer;
+}
